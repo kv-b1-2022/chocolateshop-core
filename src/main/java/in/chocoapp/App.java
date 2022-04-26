@@ -1,4 +1,4 @@
-package in.taskapp;
+package in.chocoapp;
 
 public class App {
 

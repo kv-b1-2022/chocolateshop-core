@@ -1,0 +1,2 @@
+2022-04-27 01:12:36.446[main]ERROR in.chocoapp.logic.UserValidation- Password entered is less than 8 characters or greater than 16 characters
+2022-04-27 01:12:36.462[main]ERROR in.chocoapp.TestAddUser- Registration failed for this user User(id=0, name=Kolanchi, mobile=0987654321, email=kolanchi@gmail.com, address=Kumbakonam, password=12345)

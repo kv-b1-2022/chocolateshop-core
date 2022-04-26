@@ -1,4 +1,4 @@
-package in.taskapp;
+package in.chocoapp;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
