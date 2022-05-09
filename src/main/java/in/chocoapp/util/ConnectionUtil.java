@@ -14,10 +14,10 @@ public class ConnectionUtil {
 	private static Logger log = LogManager.getLogger(ConnectionUtil.class);
 
 	public static Connection getConnection() throws Exception {
-		Connection connect = null;
+		Connection connection = null;
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			connect = DriverManager.getConnection("jdbc:mysql://101.53.133.59:3306/revature_training_db", "rev_user",
+			connection = DriverManager.getConnection("jdbc:mysql://101.53.133.59:3306/revature_training_db", "rev_user",
 					"rev_user");
 		} catch (CommunicationsException e) {
 			log.warn(e.getMessage());
@@ -28,6 +28,6 @@ public class ConnectionUtil {
 			e.printStackTrace();
 			throw new Exception(e.getMessage());
 		}
-		return connect;
+		return connection;
 	}
 }
